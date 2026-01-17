@@ -16,7 +16,7 @@
 async function send() {
   const message = document.getElementById("msg").value;
 
-  const res = await fetch("YOUR_N8N_WEBHOOK_URL", {
+  const res = await fetch("https://ahmedoffical001.app.n8n.cloud/webhook-test/935be5fd-48cd-4cf9-9072-4567c9ad0372", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message })
